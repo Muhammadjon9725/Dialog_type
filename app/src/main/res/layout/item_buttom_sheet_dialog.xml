@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="USB dan foydalanish"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="5dp"
+        android:backgroundTint="@color/white"
+        app:strokeColor="#FFACACAC"
+        app:strokeWidth="1dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Multimedia sifatida"
+        android:gravity="center" />
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="5dp"
+        android:backgroundTint="@color/white"
+        app:strokeColor="#FFACACAC"
+        app:strokeWidth="1dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="PPT rasmlarni oʻtkazish"
+        android:gravity="center" />
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="5dp"
+        android:backgroundTint="@color/white"
+        app:strokeColor="#ACACAC"
+        app:strokeWidth="1dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Axborot uzatilmasin"
+        android:gravity="center" />
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="5dp"
+        android:backgroundTint="#D6D6D6"
+        app:strokeColor="#B3B3B3"
+        android:id="@+id/btn_close"
+        app:strokeWidth="1dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Bekor qilish"
+        android:gravity="center" />
+
+
+</LinearLayout>

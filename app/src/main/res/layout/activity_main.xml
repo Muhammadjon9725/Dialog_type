@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#C82D40"
+        android:text="Alert Dialog"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/custom_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#C82D40"
+        android:text="Custom Dialog"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alert_buttom" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fragment_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#C82D40"
+        android:text="Fragment Dialog"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_buttom" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/datapicker_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#C82D40"
+        android:text="DatePicker Dialog"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_buttom" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/timepicker_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#C82D40"
+        android:text="TimePiker Dialog"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datapicker_buttom" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttomsheet_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#C82D40"
+        android:text="BottomSHeet Dialog"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timepicker_buttom" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#C82D40"
+        android:text="Snackbar"
+        android:id="@+id/snackbar_buttom"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttomsheet_buttom" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
